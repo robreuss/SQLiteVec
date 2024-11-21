@@ -12,7 +12,7 @@ rm sqlite-amalgamation.zip
 
 # download sqlite-vec amalgamation
 
-curl -o sqlite-vec-amalgamation.zip -L https://github.com/asg017/sqlite-vec/releases/download/v0.1.3/sqlite-vec-0.1.3-amalgamation.zip
+curl -o sqlite-vec-amalgamation.zip -L https://github.com/asg017/sqlite-vec/releases/download/v0.1.6/sqlite-vec-0.1.6-amalgamation.zip
 unzip sqlite-vec-amalgamation.zip
 mv sqlite-vec.c Sources/CSQLiteVec/
 mv sqlite-vec.h Sources/CSQLiteVec/include/
