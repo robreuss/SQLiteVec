@@ -43,7 +43,10 @@ let package = Package(
         ),
         .target(
             name: "CSQLiteVec",
-            publicHeadersPath: "include"
+            publicHeadersPath: "include",
+            cSettings: [
+                .define("SQLITE_ENABLE_FTS5")
+            ]
         ),
         .testTarget(
             name: "SQLiteVecTests",
