@@ -389,7 +389,7 @@ extension Database {
 
 extension Database {
     /// The mode in which a transaction acquires a lock.
-    public enum TransactionMode: String {
+    public enum TransactionMode: String, Sendable {
         /// Defers locking the database till the first read/write executes.
         case deferred = "DEFERRED"
 
